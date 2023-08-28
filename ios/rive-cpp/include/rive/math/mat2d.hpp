@@ -14,7 +14,7 @@ private:
 
 public:
     Mat2D() : m_Buffer{1.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f} {}
-    Mat2D(const Mat2D& copy) = default;
+    // Mat2D(const Mat2D& copy) = default;
     Mat2D(float x1, float y1, float x2, float y2, float tx, float ty) :
         m_Buffer{x1, y1, x2, y2, tx, ty}
     {}
