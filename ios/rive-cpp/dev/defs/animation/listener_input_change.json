@@ -1,0 +1,22 @@
+{
+  "name": "ListenerInputChange",
+  "key": {
+    "int": 116,
+    "string": "listener_input_change"
+  },
+  "abstract": true,
+  "extends": "animation/listener_action.json",
+  "properties": {
+    "inputId": {
+      "type": "Id",
+      "typeRuntime": "uint",
+      "initialValue": "Core.missingId",
+      "initialValueRuntime": "-1",
+      "key": {
+        "int": 227,
+        "string": "inputid"
+      },
+      "description": "Id of the StateMachineInput referenced."
+    }
+  }
+}
